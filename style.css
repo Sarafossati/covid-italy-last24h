@@ -1,0 +1,36 @@
+div{color:#fff;}
+
+.container{
+    background-image: url('bck.jpg');
+    border-radius: 20px;
+    padding: 3em;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 1em;
+}
+
+.numero-tamponi, .deceduti, .totale-casi, .nuovi-positivi, .totale-positivi, .ricoverati, .terapia-intensiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.positivi, .ricoveri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div p{
+    color: #000;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 20px;
+}
