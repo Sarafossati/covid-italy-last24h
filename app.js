@@ -6,10 +6,10 @@ fetch('https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-c
         let datajson = (data.slice(-1));
 
         let testodata = document.querySelector(".testodata");
-            testodata.innerHTML = datajson[0].data;
+        testodata.innerHTML = datajson[0].data;
 
         let testotamponi = document.querySelector(".testotamponi");
-            testotamponi.innerHTML = datajson[0].tamponi;
+        testotamponi.innerHTML = datajson[0].tamponi;
         
         let testonuovipositivi = document.querySelector(".testonuovipositivi");
         testonuovipositivi.innerHTML = datajson[0].nuovi_positivi;

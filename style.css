@@ -34,3 +34,10 @@ div p{
     padding: 7px;
     border-radius: 20px;
 }
+
+.nuovi-positivi{
+    font-size: 40px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+}
